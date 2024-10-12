@@ -16,7 +16,9 @@ myenv/
 .vscode/
 .idea/
 encoded-images-data.csv
+encoded-images-data.csv.bak
 classifier.pkl
+classifier.pkl.bak
 labels.pkl
 # Ignore logs
 *.log
