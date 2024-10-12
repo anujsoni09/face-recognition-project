@@ -1,0 +1,26 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+myenv/
+
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables
+.env
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+encoded-images-data.csv
+classifier.pkl
+labels.pkl
+# Ignore logs
+*.log
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store

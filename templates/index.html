@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Recognition</title>
+  <!-- Css style  -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+</head>
+<body>
+  <div id="button-container">
+    <button id="start-btn">Start camera</button>
+    <button id="stop-btn" hidden>Stop camera</button>
+    <button id="capture-btn" hidden>Capture</button>
+  </div>
+
+  <div id="video-container">
+    <video id="original-video" autoplay></video>
+    <img id="processed-image" alt="Click on start camera button">
+  </div>
+
+  <div id="captured-faces"></div> <!-- Container for captured images -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+</body>
+</html>
