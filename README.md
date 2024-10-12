@@ -1,8 +1,6 @@
 # Real-Time Face Recognition Web App
 ## Overview
 
-[![N|Solid](https://miro.medium.com/v2/resize:fit:640/1*dKU4uBSnJCs4jzkkuiALoQ.png)]()
-
 
 This project is a real-time face recognition web application that utilizes Flask as the backend framework, alongside Dlib and OpenCV for face detection and recognition. The application provides an interactive user interface built with HTML, CSS, and JavaScript, allowing users to capture and recognize faces in real time.
 # Table of Contents
