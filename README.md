@@ -56,6 +56,6 @@ Follow the steps below to set up the project locally:
     ```
     
 ## Usage
-Allow the web app to access your webcam.
-The application will automatically detect faces in real time.
-When a face is recognized, the app will display the name of the person.
+- Allow the web app to access your webcam.
+- The application will automatically detect faces in real time.
+- When a face is recognized, the app will display the name of the person.
